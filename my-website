@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Simple Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md fixed w-full top-0 z-10">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-blue-600">MyWeb</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#home" class="hover:text-blue-600">Home</a></li>
+        <li><a href="#about" class="hover:text-blue-600">About</a></li>
+        <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="h-screen flex flex-col justify-center items-center bg-gradient-to-r from-blue-500 to-purple-600 text-white text-center px-4">
+    <h2 class="text-4xl font-extrabold mb-4">Selamat Datang 👋</h2>
+    <p class="text-lg max-w-xl">Ini adalah website sederhana yang bisa kamu deploy ke GitHub Pages. Cocok untuk portfolio, project, atau personal branding.</p>
+    <a href="#about" class="mt-6 bg-white text-blue-600 px-6 py-2 rounded-full font-semibold shadow hover:bg-gray-200">Pelajari Lebih Lanjut</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 max-w-5xl mx-auto px-6 text-center">
+    <h3 class="text-3xl font-bold mb-6">Tentang Website Ini</h3>
+    <p class="text-lg text-gray-600">Website ini dibuat dengan <span class="font-semibold text-blue-600">HTML + Tailwind CSS</span> sehingga tampil sederhana namun tetap modern. Kamu bisa kustomisasi bagian ini untuk memperkenalkan dirimu atau project yang sedang kamu kerjakan.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-gray-200 text-center">
+    <h3 class="text-3xl font-bold mb-6">Hubungi Saya</h3>
+    <p class="mb-4 text-gray-600">Ingin berkolaborasi? Silakan kirim pesan!</p>
+    <a href="mailto:emailkamu@example.com" class="bg-blue-600 text-white px-6 py-2 rounded-full shadow hover:bg-blue-700">Kirim Email</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 text-center py-6">
+    <p>© 2025 My Simple Website. Dibuat dengan ❤️ dan GitHub Pages.</p>
+  </footer>
+
+</body>
+</html>
